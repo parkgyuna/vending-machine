@@ -17,7 +17,7 @@ Widget::~Widget()
 void Widget::SettingButton(){
 
     ui->pbCoffee->setEnabled(money>=100);
-    ui->pbMilk->setEnabled(money>=150);
+    ui->pbMilk->setEnabled(money>=200);
     ui->pbTea->setEnabled(money>=150);
 
 
